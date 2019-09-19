@@ -26,15 +26,6 @@ public class Sample {
 	r.keyPress(KeyEvent.VK_ENTER);
 	r.keyRelease(KeyEvent.VK_ENTER);
 	
-	List<WebElement> items = driver.findElements(By.xpath("//a[@class='dp-widget-link hashAdded']"));
-	int i = items.size();
-	System.out.println(i);
-	
-	for (WebElement x : items) {
-		
-		System.out.println(x.getText());
-		
-	}
 	}
 	
 
